@@ -1,12 +1,30 @@
 .App {
   text-align: center;
 }
-
+.contentHeading{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.heading{
+  font-weight: 600;
+}
+.activity{
+  color:rgba(126, 123, 123, 0.8)
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+@media screen and (min-width: 768px) {
+  .App{
+    max-width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(11, 3, 3, 0.8);
+    border-radius: 10px;
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(242, 246, 250);
+    padding: 0 1em;
+    margin:15px;
+    font-size: 13px;
+    text-align: start;
+    border-radius: 10px;
+    line-height: 16px;
+}
+.images{
+    margin: 15px 15px 10px 10px;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+}
+.name{
+    font-weight: 700;
+}
+.activity{
+    color:rgb(88, 86, 86)
+}
+.message,
+.time{
+    color: rgba(126, 123, 123, 0.8);
+}
+.group{
+    color: rgb(100, 151, 252);
+    font-weight: 700;
+}
