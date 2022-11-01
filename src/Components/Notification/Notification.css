@@ -22,8 +22,9 @@
 .name{
     font-weight: 700;
 }
-.activity{
-    color:rgb(88, 86, 86)
+.activiti{
+    color:rgba(37, 34, 34, 0.7);
+    font-weight: 600;
 }
 .message,
 .time{

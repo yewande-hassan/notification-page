@@ -10,7 +10,8 @@
   font-weight: 600;
 }
 .activity{
-  color:rgba(126, 123, 123, 0.8)
+  color:rgba(126, 123, 123, 0.8);
+  cursor: pointer;
 }
 .App-logo {
   height: 40vmin;
